@@ -101,7 +101,7 @@ const evensNumbers = array1.filter(function (number) {
   return number % 2 === 0;
 });
 
-document.getElementById("evens").innerHTML = oddsNumbers;
+document.getElementById("evens").innerHTML = evensNumbers;
 /* Output Sum of Org. Array */
 
 const sumArray = array1.reduce(function (number, total) {
