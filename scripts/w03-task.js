@@ -102,6 +102,7 @@ const evensNumbers = array1.filter(function (number) {
 });
 
 document.getElementById("evens").innerHTML = evensNumbers;
+
 /* Output Sum of Org. Array */
 
 const sumArray = array1.reduce(function (number, total) {
