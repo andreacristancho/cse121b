@@ -48,7 +48,6 @@ myProfile.favoriteFoods.forEach((food) => {
 });
 
 /* Hobbies List */
-
 // ojo! cuando doy createElement debo llamar "li" para
 // que me tome tipo lista vertical.
 

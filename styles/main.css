@@ -1,173 +1,315 @@
-/* Universal Selector */
+/*Selector universal*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margen: 0;
+  relleno: 0;
+  tamaño de caja: cuadro de borde;
 }
 
-/* HTML Selectors */
-body {
-  font-family: "Roboto", Helvetica, sans-serif;
+/* Selectores HTML */
+cuerpo {
+  familia de fuentes: 'Roboto', Helvetica, sans-serif;
 }
 
-nav {
-  background-color: black;
-  width: 100%;
-  position: fixed;
-  top: 0;
+navegación {
+  color de fondo: negro;
+  ancho: 100%;
+  posición: fija;
+  arriba: 0;
 }
 
-nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: fit-content;
-  margin: 0 auto;
-}
-
-nav ul li {
-  flex: 1 1 auto;
-}
-
-nav ul li:first-child {
-  display: block;
-  font-size: 2rem;
-}
-
-nav ul li:first-child a {
-  padding: 1px 10px;
+navegación ul {
+  pantalla: flexible;
+  dirección flexible: columna;
+  alinear elementos: centro;
+  ancho máximo: -moz-fit-content;
+  ancho máximo: contenido ajustado;
+  margen: 0 automático;
 }
 
 nav ul li {
-  display: none;
-  list-style: none;
-  margin: 10px;
+  flexionar: 1 1 automático;
+}
+
+nav ul li:primer hijo {
+  bloqueo de pantalla;
+  tamaño de fuente: 2rem;
+}
+
+nav ul li:primer hijo a {
+  relleno: 1px 10px;
+}
+
+nav ul li {
+  pantalla: ninguna;
+  estilo de lista: ninguno;
+  margen: 10px;
 }
 
 nav ul li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  font-weight: 600;
-  color: white;
-  text-align: center;
+  bloqueo de pantalla;
+  relleno: 10px;
+  decoración de texto: ninguna;
+  peso de fuente: 600;
+  color blanco;
+  alineación de texto: centro;
+  familia de fuentes: 'Arial Narrow', Arial, sans-serif;
 }
 
-nav ul li a:hover {
-  background-color: #efefef;
-  color: black;
+nav ul li a: flotar {
+  color de fondo: #efefef;
+  de color negro;
 }
 
 h1,
 h2 {
-  text-align: center;
-  margin-bottom: 15px;
+  alineación de texto: centro;
+  margen: 1rem 0,5rem;
 }
 
 h1 {
-  border-bottom: 1px solid #ccc;
+  borde inferior: 1px sólido #ccc;
+}
+
+#gridly h1 {
+  margen superior: 80px;
 }
 
 h2 {
-  font-size: 1.2rem;
-  color: navy;
-  text-align: center;
-  margin-top: 30px;
+  tamaño de fuente: 1,5rem;
+  color: azul marino;
+  alineación de texto: centro;
+  margen superior: 25px;
 }
 
-main {
-  margin-top: 125px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  align-items: center;
-  justify-content: center;
+h3 {
+  tamaño de fuente: 1,3rem;
+  margen inferior: 1rem;
 }
 
-picture {
-  margin: 0 auto;
+encabezado {
+  margen superior: 70px;
 }
 
-picture img {
-  width: 240px;
-  height: auto;
-  border-radius: 5%;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 30px #777;
+imagen {
+  margen: 0 automático;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
+imagen de imagen {
+  ancho: 240px;
+  altura: automático;
+  radio fronterizo: 5%;
+  borde: 1px sólido #ccc;
+  sombra de cuadro: 0 0 30px #777;
 }
 
-label {
-  margin: 15px 0;
+sección {
+  pantalla: flexible;
+  dirección flexible: columna;
+  alinear elementos: centro;
+  margen: 0 auto 1rem;
+  borde: 1px rgba sólido (0, 0, 0, .1);
+  relleno: 1rem;
+  color de fondo: #eee;
 }
 
-footer {
-  background-color: gray;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
+artículo {
+  margen inferior: 1rem;
 }
 
-/* Class Selectors */
-.active {
-  border-bottom: 1px solid yellow;
+artículo div {
+  margen inferior: .5rem;
+  alineación de texto: derecha;
 }
 
-.open li {
-  display: block;
+etiqueta {
+  relleno: .35rem;
 }
 
-.block {
-  display: block;
+aporte {
+  relleno: .35rem;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center everything in the main container */
-  margin-top: 125px;
+entrada[tipo="botón"] {
+  relleno: .5rem;
+  color de fondo: #444;
+  color blanco;
+  borde: ninguno;
+  radio del borde: 5px;
+  cursor: puntero;
+  ancho: 100%
 }
 
-#sortBy {
-  margin-top: 10px; /* Adjust the spacing between the text and the dropdown */
+entrada[tipo="casilla de verificación"] {
+  ancho: 25 píxeles;
+  altura: 25 píxeles;
 }
 
-#temples {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Center the temple cards */
-  margin: 0 auto;
+dt {
+  peso de fuente: 700;
 }
 
-/* ID Selectors */
+dt::antes {
+  contenido: "ðŸ ˜ï¸ ";
+}
 
-/* Media Queries */
-@media only screen and (min-width: 32.5em) {
-  nav ul {
-    flex-direction: row;
+DD {
+  margen: 0 0 ,5rem 2rem;
+  tamaño de fuente: más pequeño;
+}
+
+pie de página {
+  color de fondo: #444;
+  color blanco;
+  relleno: 15px;
+  alineación de texto: centro;
+  ancho: 100%;
+  posición: fija;
+  abajo: 0;
+}
+
+/* Selectores de clases */
+.activo {
+  borde inferior: 1px amarillo sólido;
+}
+
+.abrir li {
+  bloqueo de pantalla;
+}
+
+.bloquear {
+  bloqueo de pantalla;
+}
+
+.más grande {
+  tamaño de fuente: más grande;
+  color rojo;
+}
+
+.bien {
+  ancho: 100%;
+  alineación de texto: derecha;
+}
+
+.medio {
+  pantalla: flexible;
+  alinear elementos: centro;
+  justificar contenido: correcto;
+  brecha: 1rem;
+}
+
+/* Selectores de ID */
+
+#hogar {
+  margen superior: 125 px;
+  pantalla: cuadrícula;
+  columnas-plantilla-cuadrícula: 1fr;
+  espacio de cuadrícula: 20px;
+  alinear elementos: centro;
+  justificar-contenido: centro;
+}
+
+
+#sección 1 {
+  color de fondo: rgb(225, 250, 225, .5);
+}
+
+#sección 2 {
+  color de fondo: rgba(200, 200, 250, 0,5);
+
+}
+
+#sección2 div {
+  margen inferior: 1rem;
+}
+
+#seccion 3 {
+  color de fondo: rgb(250, 225, 250, .5);
+}
+
+#Ordenar por {
+  apariencia: ninguna;
+  pantalla: flexible;
+  relleno: .5rem;
+  color de fondo: #eee;
+  color: #444;
+  peso de fuente: 700;
+  margen: 1rem automático;
+  ancho: 200px;
+  borde: 1px rgba sólido (0, 0, 0, .2);
+  alineación de texto: centro;
+}
+
+#sortBy opción: deshabilitado {
+  estilo de fuente: cursiva;
+  relleno: 1rem;
+  color de fondo: #111;
+  color: #eee;
+}
+
+#templos {
+  pantalla: cuadrícula;
+  columnas-plantilla-cuadrícula: repetir(ajuste automático, minmax(320px, 1fr));
+  brecha de red: .5rem;
+  alinear elementos: centro;
+  margen inferior: 3rem;
+}
+
+#templos artículo {
+  altura: 250 px;
+  margen: .5rem;
+  borde: 1px rgba sólido (0, 0, 0, .1);
+  relleno: 1rem;
+  color de fondo: #eee;
+  pantalla: flexible;
+  dirección flexible: columna;
+  alinear elementos: centro;
+  justificar-contenido: centro;
+}
+
+#templos h4 {
+  color: azul marino;
+  tamaño de fuente: más pequeño;
+}
+
+
+#templos img {
+  ancho: 250 px;
+  altura: automático;
+  sombra de cuadro: 0 0 30px #777;
+  margen: .5rem;
+}
+
+/* Preguntas de los medios */
+Pantalla solo @media y (ancho mínimo: 32,5 em) {
+  navegación ul {
+      dirección flexible: fila;
   }
 
-  nav ul li:first-child {
-    display: none;
+  nav ul li:primer hijo {
+      pantalla: ninguna;
   }
 
   nav ul li {
-    display: block;
+      bloqueo de pantalla;
   }
 
-  main {
-    margin: 100px auto 20px;
-    grid-template-columns: 250px 1fr;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
+  sección {
+      ancho mínimo: 300px;
   }
+
+  #hogar {
+      margen: 100px automático 20px;
+      columnas-plantilla-cuadrícula: 250px 1fr;
+      ancho máximo: -moz-fit-content;
+      ancho máximo: contenido ajustado;
+  }
+
+  #tarea3 {
+      pantalla: cuadrícula;
+      columnas-plantilla-cuadrícula: 1fr 1fr;
+      espacio en la cuadrícula: 5px;
+      margen: 0 automático;
+      ancho máximo: 950 px;
+  }
+
 }

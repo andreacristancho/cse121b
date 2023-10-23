@@ -1,0 +1,936 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,900&family=Roboto+Condensed&family=Russo+One&display=swap");
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 22px;
+  margin: auto;
+  padding: 0;
+}
+
+header {
+  background-color: #275493;
+}
+
+.header-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-template-rows: 1fr;
+}
+#logo {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+}
+
+#banner-box {
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-family: Poppins;
+  padding-bottom: 20px;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+.banner_tittle {
+  font-family: "Poppins:ital,wght@0,200";
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  padding-right: 120px;
+  padding-top: 60px;
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+
+.banner_img {
+  z-index: -1;
+}
+
+nav a {
+  text-align: center;
+  background-color: #275493;
+  color: white;
+  text-decoration: none;
+  padding: 10px 35px;
+  font-family: "Russo One", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav a:hover {
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 10px 35px;
+}
+
+.main_part {
+  width: 1400px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.main_img {
+  width: 1600px;
+  height: auto;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0px 0px 20px 50px;
+  text-justify: auto;
+  text-align: justify;
+  font-size: 1.5em;
+  color: #1d3557;
+  margin: 0;
+}
+
+.main_part {
+  box-sizing: border-box;
+  width: 1600px;
+}
+
+section {
+  width: 100%;
+}
+
+.block1 {
+  display: block;
+  /*para ver el contexto leugo lo borro el border*/
+}
+
+.block1 h2 {
+  padding-left: 40px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  font-family: Russo, ∫∫Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  color: #345f9b;
+  font-size: 2em;
+  text-align: center;
+}
+
+.block2 {
+  display: block;
+  margin: 0 auto;
+}
+
+.block2 h2 {
+  padding-left: 40px;
+  padding-bottom: 0px;
+  font-family: Russo, ∫∫Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  color: #345f9b;
+  font-size: 2em;
+  text-align: center;
+}
+
+.block3 {
+  display: block;
+  margin-left: auto;
+}
+
+.block3 h2 {
+  padding-left: 40px;
+  padding-bottom: 0px;
+  font-family: Russo, ∫∫Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  color: #345f9b;
+  font-size: 2em;
+  text-align: center;
+}
+
+.block4 {
+  display: block;
+  margin: 0 auto;
+}
+
+.block3 h2 {
+  padding-left: 40px;
+}
+
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 40px 0px 20px 50px;
+  text-justify: auto;
+  text-align: center;
+  font-size: 1.5em;
+  color: #1d3557;
+  margin-top: 0cm;
+}
+
+.second_part {
+  display: block;
+}
+
+.button-box {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.call_msg {
+  background-color: #e63946;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.call_msg:hover {
+  background-color: #ac2934;
+  color: #f1faee;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.third_part {
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr;
+  padding-top: 50px;
+}
+
+#background {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: #c0c9ca;
+  padding-top: 60px;
+  z-index: -1;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #1d3557;
+  padding: 5px 20px;
+  margin-top: 100px;
+  justify-content: left;
+  align-items: center;
+}
+
+footer p {
+  background-color: #1d3557;
+  color: white;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+footer a {
+  background-color: #1d3557;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+.site_plan {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.contactus {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.share {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+.social {
+  width: 100%;
+  align-content: flex-end;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.wa {
+  padding-right: 30px;
+}
+
+.ins {
+  padding-left: 30px;
+}
+
+/* From w3shools_ Slideshow*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* End - From w3shools_ Slideshow */
+
+/* PRODUCT CODE - 2nd PAGE*/
+
+.tittle_build {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+  font-family: "Russo One", "Open Sans", "Helvetica Neue", sans-serif;
+  color: #e63946;
+  font-size: 2.3em;
+  padding-top: 100px;
+}
+
+.your-plan {
+  width: 1600px;
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-left: 50px;
+}
+
+.your-plan-img {
+  grid-column: 1/3;
+  grid-row: 1/4;
+  height: auto;
+  margin-top: 60px;
+  justify-items: center;
+  padding-left: 0px;
+  border: 10px solid #023047;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.your-plan-img:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+#preparation {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  padding-top: 250px;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  padding-right: 100px;
+  font-family: Russo, ∫∫Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  color: #345f9b;
+  font-size: 1.8em;
+  text-align: left;
+  text-justify: auto;
+}
+
+.button-box {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  padding-top: 150px;
+}
+
+.contactus-box {
+  background-color: #e63946;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.contactus-box:hover {
+  background-color: #ac2934;
+  color: #f1faee;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.stages-grid {
+  width: 1600px;
+  display: grid;
+  grid-template-columns: 3fr 0.5fr 2fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+  align-content: flex-end;
+}
+
+.stages-tittle {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  text-align: center;
+  font-family: "Roboto+Condensed&family", "Russo", sans-serif;
+  color: #275493;
+  font-size: 2em;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 100px;
+}
+
+.stages-msg {
+  grid-column: 1/2;
+  grid-row: 3/5;
+  padding-left: 100px;
+}
+.stages-text {
+  grid-column: 1/2;
+  grid-row: 3/5;
+  text-align: left;
+  font-family: "Roboto+Condensed&family", "Russo", sans-serif;
+  color: #345f9b;
+  font-size: 1.8em;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.stages-img {
+  grid-column: 3/4;
+  grid-row: 3/5;
+  border: 10px solid #023047;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.stages-img:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.test-tittle {
+  grid-column: 1/4;
+  grid-row: 2/3;
+  text-align: center;
+  font-family: "Roboto+Condensed&family", "Russo", sans-serif;
+  color: #275493;
+  font-size: 2em;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 100px;
+}
+
+.test-box {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  padding-top: 150px;
+}
+
+.styleTestButton {
+  background-color: #eff588;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.styleTestButton {
+  background-color: #e4eea7;
+  color: #f1faee;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.styleCalculateButton {
+  background-color: #eff588;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.styleCalculateButton {
+  background-color: #e4eea7;
+  color: #f1faee;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+/* FOR SUPPORT 3rd age  Accordion https://www.w3schools.com/howto/howto_js_accordion.asp */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: Poppins;
+  font-size: 1.4em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+/* END - Accordion */
+
+.FAQ-grid {
+  width: 1600px;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-template-rows: 0.5fr 1fr 1fr 0.1fr;
+}
+
+.FAQ-img {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.FAQ-msg {
+  grid-column: 1/2;
+  grid-row: 2/5;
+  margin-left: 100px;
+  resize: vertical;
+}
+
+.FAQ-tittle {
+  text-align: center;
+  font-family: "Russo One", "Open Sans", "Helvetica Neue", sans-serif;
+  color: #e63946;
+  font-size: 2.3em;
+  padding-top: 100px;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.button-box-support {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  padding-top: 100px;
+}
+
+.contactus-box-support {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  background-color: #e63946;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-left: 500px;
+  margin-bottom: 150px;
+}
+
+.contactus-box-support:hover {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  background-color: #ac2934;
+  color: #f1faee;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-bottom: 150px;
+  margin-left: 500px;
+}
+
+.test-box-support {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  padding-top: 100px;
+}
+
+.test-box-support {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  background-color: #e63946;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-left: 500px;
+  margin-bottom: 150px;
+}
+
+.test-box-support:hover {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  background-color: #ac2934;
+  color: #f1faee;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-bottom: 150px;
+  margin-left: 500px;
+}
+.testimonies {
+  margin-top: 150px;
+}
+
+.name-executive {
+  text-align: center;
+}
+/* START - How TO - Meet the team (Testimonies) in SUPPORT PAGE */
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.container p {
+  font-size: 20px;
+  text-align: justify;
+  padding-right: 50px;
+}
+
+/* END - How TO - Meet the team (Testimonies) in SUPPORT PAGE 
+
+
+/* FORM - Contac Us Page */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #edf7fd;
+  padding: 20px;
+}
+
+/* END FORM Contact Us Page */
+
+/* START - Image to form - How TO - Image with Transparent Text  */
+
+.container-form-image {
+  position: relative;
+  max-width: 1100px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+  padding-top: 100px;
+}
+
+.container-form-image .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.testButton {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  background-color: #e63946;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-bottom: 150px;
+}
+
+.testButton {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  background-color: #ac2934;
+  color: #f1faee;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 500px;
+}
+
+#questions-container div {
+  display: inline-block;
+  margin-right: 10px; /* Ajusta el margen según lo necesites */
+}
+
+#questions-container h2,
+#questions-container p {
+  text-align: left;
+}
+
+.scoreButton {
+  background-color: #4caf50; /* Color de fondo */
+  color: #ffffff; /* Color del texto */
+  border: none; /* Quita el borde */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño del texto */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+.scoreButton:hover {
+  background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.calculateTotalButton {
+  background-color: #3792cb;
+  color: white;
+  font-size: 44px;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculateTotalButton:hover {
+  background-color: #266693;
+}
+
+a {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 44px;
+  margin: auto;
+  padding: 0;
+}
+
+.button {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 44px;
+  margin: auto;
+  padding: 0;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "type": "INFRASTRUCTURE AND TECHNOLOGY",
+    "id": 1,
+    "statement": "Does your company have technological resources for data storage, statistical analysis, machine learning, and visualization?",
+    "description": "Rate on a scale of 1 to 5, with 5 being the highest compliance.",
+    "score": 0
+  },
+  {
+    "type": "INFRASTRUCTURE AND TECHNOLOGY",
+    "id": 2,
+    "statement": "Does your company have cybersecurity measures and comply with privacy regulations and policies?",
+    "description": "Rate on a scale of 1 to 5.",
+    "score": 0
+  },
+  {
+    "type": "INFRASTRUCTURE AND TECHNOLOGY",
+    "id": 3,
+    "statement": "Does your company have tools (software) for processing structured (e.g. Excel, databases), semi-structured (e.g. email, social media), and unstructured data (e.g. images, voice)?",
+    "description": "Rate on a scale of 1 to 5.",
+    "score": 0
+  },
+  {
+    "type": "HUMAN TEAM SKILLS",
+    "id": 1,
+    "statement": "Does your company have staff with KNOWLEDGE in statistical analysis, machine learning, and visualization?",
+    "description": "Rate on a scale of 1 to 5, with 5 being the highest compliance.",
+    "score": 0
+  },
+  {
+    "type": "HUMAN TEAM SKILLS",
+    "id": 2,
+    "statement": "Does your company have staff with EXPERIENCE in statistical analysis, machine learning, and visualization?",
+    "description": "Rate on a scale of 1 to 5.",
+    "score": 0
+  },
+  {
+    "type": "HUMAN TEAM SKILLS",
+    "id": 3,
+    "statement": "Does your company provide training opportunities in data analytics, machine learning, and visualization?",
+    "description": "Rate on a scale of 1 to 5.",
+    "score": 0
+  },
+  {
+    "type": "PROCESSES AND PRACTICES",
+    "id": 1,
+    "statement": "Is there documentation related to data analytics management and lessons learned in this regard?",
+    "description": "Rate on a scale of 1 to 3, with 3 being the highest compliance.",
+    "score": 0
+  },
+  {
+    "type": "PROCESSES AND PRACTICES",
+    "id": 2,
+    "statement": "Does your company have processes for auditing data quality?",
+    "description": "Rate on a scale of 1 to 3.",
+    "score": 0
+  }
+]
