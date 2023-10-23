@@ -8,7 +8,7 @@ import results from "./project_results.js";
 document.addEventListener("DOMContentLoaded", function () {
   //const questionsContainer = document.querySelector("#questions-container");
 
-  // Arreglo para almacenar los puntajes
+  // Array para almacenar los scores
   //const scores = [];
 
   document.querySelector("#testButton").addEventListener("click", function () {

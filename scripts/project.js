@@ -1,3 +1,7 @@
+// Este archivo no uso en mi proyecto no lo uso en mi proyecto
+// Acá intenté usar Fetch pero no logré  me leyera el archivo JSON que creé y
+// que logré obtener la respectiva URL
+
 const questionElement = document.querySelector("#testButton");
 let questionList = [];
 
